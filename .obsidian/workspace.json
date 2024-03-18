@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fundamentos/primeiro program.md",
+                "file": "fundamentos/constantes e variaveis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fundamentos/primeiro program.md",
+                "file": "fundamentos/constantes e variaveis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fundamentos/primeiro program.md",
+                "file": "fundamentos/constantes e variaveis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fundamentos/primeiro program.md"
+                "file": "fundamentos/constantes e variaveis.md"
               }
             }
           }
@@ -148,20 +148,22 @@
   },
   "active": "d0be4a55a9a20cee",
   "lastOpenFiles": [
-    "fundamentos/Ambiente Go GORROT & GOPATH.md",
     "fundamentos/primeiro program.md",
+    "fundamentos/constantes e variaveis.md",
+    "fundamentos/Ambiente Go GORROT & GOPATH.md",
+    "fundamentos/comandos.md",
+    "goLang/fundamentos/constantes/constantes.go",
+    "goLang/fundamentos/constantes",
+    "goLang/go.sum",
+    "goLang/go.mod",
+    "goLang/fundamentos/comandos/comandos",
+    "goLang/fundamentos/comandos/comandos.go",
+    "goLang/fundamentos/comandos",
     "goLang/fundamentos/primeiro/primeiro.go",
     "goLang/fundamentos/primeiro",
     "goLang/fundamentos",
-    "goLang",
-    "fundamentos/goLang",
     "introdução/Introdução.md",
-    "introdução/apostila-go.pdf",
     "introdução/Historia.md",
-    "fundamentos",
-    "introdução/Sem título",
-    "introdução/teste.go",
-    "teste.go",
     "Pasted image 20240318103228.png"
   ]
 }
