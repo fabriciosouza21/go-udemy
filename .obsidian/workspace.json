@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "7cdc1cf228c22500",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7828fb3a91060e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0be4a55a9a20cee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fundamentos/Ambiente Go GORROT & GOPATH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92eca0707bd8aeda",
+    "type": "split",
+    "children": [
+      {
+        "id": "212618b530efaee2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43978c3b8cbdab36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e87bac07de80933",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ff4e0fd8f2bd96f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c71e3a212dc4fd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8bdc49b765430e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e87e193119669a87",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "fundamentos/Ambiente Go GORROT & GOPATH.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "772b78b6841f04f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fundamentos/Ambiente Go GORROT & GOPATH.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14ecb5e5b72be753",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3103b56a4c52bd28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "fundamentos/Ambiente Go GORROT & GOPATH.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "d0be4a55a9a20cee",
+  "lastOpenFiles": [
+    "fundamentos/goLang",
+    "introdução/Introdução.md",
+    "introdução/apostila-go.pdf",
+    "introdução/Historia.md",
+    "fundamentos/Ambiente Go GORROT & GOPATH.md",
+    "fundamentos",
+    "introdução/Sem título",
+    "introdução/teste.go",
+    "teste.go",
+    "introdução",
+    "Pasted image 20240318103228.png"
+  ]
+}
