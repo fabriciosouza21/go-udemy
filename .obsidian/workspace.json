@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fundamentos/prints.md",
+                "file": "fundamentos/curso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fundamentos/prints.md",
+                "file": "fundamentos/curso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fundamentos/prints.md",
+                "file": "fundamentos/curso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fundamentos/prints.md"
+                "file": "fundamentos/curso.md"
               }
             }
           }
@@ -148,22 +148,22 @@
   },
   "active": "d0be4a55a9a20cee",
   "lastOpenFiles": [
+    "fundamentos/primeiro program.md",
+    "fundamentos/prints.md",
+    "fundamentos/curso.md",
+    "fundamentos/constantes e variaveis.md",
+    "fundamentos/comandos.md",
+    "fundamentos/Ambiente Go GORROT & GOPATH.md",
+    "goLang/fundamentos/tipos/tipos.go",
+    "goLang/fundamentos/tipos",
     "goLang/fundamentos/prints/prints.go",
     "goLang/fundamentos/prints",
-    "fundamentos/constantes e variaveis.md",
-    "fundamentos/prints.md",
-    "fundamentos/primeiro program.md",
-    "fundamentos/Ambiente Go GORROT & GOPATH.md",
-    "fundamentos/comandos.md",
     "goLang/fundamentos/constantes/constantes.go",
     "goLang/fundamentos/constantes",
     "goLang/go.sum",
     "goLang/go.mod",
     "goLang/fundamentos/comandos/comandos",
     "goLang/fundamentos/comandos/comandos.go",
-    "goLang/fundamentos/comandos",
-    "goLang/fundamentos/primeiro/primeiro.go",
-    "goLang/fundamentos/primeiro",
     "introdução/Introdução.md",
     "introdução/Historia.md",
     "Pasted image 20240318103228.png"
