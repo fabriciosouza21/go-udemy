@@ -148,6 +148,8 @@
   },
   "active": "d0be4a55a9a20cee",
   "lastOpenFiles": [
+    "goLang/fundamentos/conversoes/conversoes.go",
+    "goLang/fundamentos/conversoes",
     "goLang/fundamentos/default/default.go",
     "goLang/fundamentos/default",
     "fundamentos/prints.md",
@@ -164,8 +166,6 @@
     "goLang/fundamentos/constantes/constantes.go",
     "goLang/fundamentos/constantes",
     "goLang/go.sum",
-    "goLang/go.mod",
-    "goLang/fundamentos/comandos/comandos",
     "introdução/Introdução.md",
     "introdução/Historia.md",
     "Pasted image 20240318103228.png"
