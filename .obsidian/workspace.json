@@ -148,6 +148,9 @@
   },
   "active": "d0be4a55a9a20cee",
   "lastOpenFiles": [
+    "goLang/fundamentos/aritimaticos/aritimaticos.go",
+    "goLang/fundamentos/aritimaticos",
+    "goLang/fundamentos/operadores-aritimaticos",
     "goLang/fundamentos/funcoes/main.go",
     "goLang/fundamentos/funcoes/funcoes.go",
     "goLang/fundamentos/funcoes",
@@ -163,9 +166,6 @@
     "fundamentos/comandos.md",
     "fundamentos/Ambiente Go GORROT & GOPATH.md",
     "goLang/fundamentos/tipos/tipos.go",
-    "goLang/fundamentos/tipos",
-    "goLang/fundamentos/prints/prints.go",
-    "goLang/fundamentos/prints",
     "introdução/Introdução.md",
     "introdução/Historia.md",
     "Pasted image 20240318103228.png"
