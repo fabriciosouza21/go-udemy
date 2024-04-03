@@ -55,7 +55,6 @@ func main() {
 	fmt.Println("O tamanho da string é", len(s2))
 
 	// char?? - não existe em go, mas pode ser representado por um int32
-
 	char := 'a'
 
 	fmt.Println("O tipo de char é", reflect.TypeOf(char))
