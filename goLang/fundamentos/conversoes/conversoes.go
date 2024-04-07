@@ -25,7 +25,6 @@ func main() {
 	fmt.Println("Teste " + string(97))
 
 	// int para string
-
 	fmt.Println("Teste " + strconv.Itoa(123))
 
 	// string para int
@@ -36,6 +35,7 @@ func main() {
 
 	// string para boolean
 	// 1 é verdadeiro, qual quer outro valor e falso
+	// True, true, TRUE, 1 são verdadeiros
 	b, _ := strconv.ParseBool("true")
 
 	if b {
