@@ -20,5 +20,8 @@ func main() {
 
 	for let, funcs := range funcsPorLertra {
 		fmt.Println(let, funcs)
+		for nome, salario := range funcs {
+			fmt.Println(nome, salario)
+		}
 	}
 }
