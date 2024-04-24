@@ -5,6 +5,7 @@ import "fmt"
 // variadic function
 // é a forma de passar um número variável de parâmetros para uma função
 // o operador ... é usado para indicar que a função aceita um número variável de parâmetros
+// ela funciona como um slice de parâmetros
 
 func media(numeros ...float64) float64 {
 	total := 0.0
