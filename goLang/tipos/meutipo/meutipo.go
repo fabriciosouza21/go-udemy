@@ -5,6 +5,9 @@ import "fmt"
 // nota é um alias para float64
 type nota float64
 
+// método de extensão
+// não é possível criar métodos em tipos primitivos
+// por isso, criamos um tipo nota que é um alias para float64
 func (n nota) entre(inicio, fim float64) bool {
 	return float64(n) >= inicio && float64(n) <= fim
 }
