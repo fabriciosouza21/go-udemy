@@ -10,6 +10,7 @@ const erroPadrao = "valor esperado %v, mas o resultado encontrado foi %v"
 // convesão de numeclatrua do arquivo de teste: nome do arquivo + _test.go
 // *testing.T é um ponteiro de utilitário de teste
 func TestMedia(t *testing.T) {
+	t.Parallel()
 	valorEsparado := 7.28
 	valor := Media(7.2, 9.9, 6.1, 5.9)
 	if valor != valorEsparado {

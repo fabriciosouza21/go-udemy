@@ -11,6 +11,7 @@ const msgIndex = "%s (parte: %s) - índices: esperado (%d) <> encontrado (%d)."
 // t.Logf é usado para imprimir a mensagem de log
 // go test -v - para executar os teste do terminal com verbose
 func TestIndex(t *testing.T) {
+	t.Parallel()
 	testes := []struct {
 		texto    string
 		part     string
