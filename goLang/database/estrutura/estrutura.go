@@ -2,9 +2,30 @@ package main
 
 import (
 	"database/sql"
+	"log"
 
 	_ "github.com/lib/pq"
 )
+
+func createDatabaseIfNotExist(db *sql.DB, dbName string) error {
+	// Verifica se o banco de dados existe
+	var name string
+	query := "SELECT datname FROM pg_catalog.pg_database WHERE datname = $1"
+	err := db.QueryRow(query, dbName).Scan(&name)
+	if err == sql.ErrNoRows {
+		// O banco de dados não existe, então cria
+		_, err := db.Exec("CREATE DATABASE " + dbName) // Uso simples, mas cuidado com injeção de SQL
+		if err != nil {
+			return err
+		}
+		log.Println("Database created")
+	} else if err != nil {
+		return err
+	} else {
+		log.Println("Database already exists")
+	}
+	return nil
+}
 
 func exec(db *sql.DB, sql string) sql.Result {
 	result, err := db.Exec(sql)
@@ -22,8 +43,7 @@ func main() {
 	}
 
 	defer db.Close()
-	exec(db, "drop database if exists db_go")
-	exec(db, "create database  db_go")
+	createDatabaseIfNotExist(db, "db_go")
 	exec(db, "drop table if exists usuarios")
 	exec(db, `CREATE TABLE usuarios (
 		id serial primary key,
