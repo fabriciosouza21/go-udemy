@@ -2,6 +2,11 @@ package main
 
 import "encoding/json"
 
+// struct com tags para json
+// os nomes dos campos devem começar com letra maiúscula
+// para serem exportados
+// caso contrário, não serão exportados
+
 type produto struct {
 	ID    int      `json:"id"`
 	Nome  string   `json:"nome"`

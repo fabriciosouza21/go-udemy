@@ -45,6 +45,8 @@ func main() {
 	defer db.Close()
 	createDatabaseIfNotExist(db, "db_go")
 	exec(db, "drop table if exists usuarios")
+	// não está criando a tabela
+	// se precisar fabricio do futuro descubra o motivo
 	exec(db, `CREATE TABLE usuarios (
 		id serial primary key,
 		nome varchar(80)
